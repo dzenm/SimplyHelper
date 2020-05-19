@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="columnNumber" format="integer" />
+    <attr name="ratio" format="float" />
+
+    <declare-styleable name="ProgressBar">
+        <attr name="textSize" format="dimension|reference" />
+        <attr name="maxValue" format="integer" />
+        <attr name="textStatic" format="boolean" />
+        <attr name="progressHeight" format="dimension|reference" />
+        <attr name="progressColor" format="color|reference" />
+    </declare-styleable>
+
+    <declare-styleable name="RatioImageView">
+        <attr name="isCircle" format="boolean" />
+        <attr name="isMask" format="boolean" />
+        <attr name="ratio" />
+        <attr name="foregroundColor" format="color|reference" />
+        <attr name="cornerRadius" format="dimension|reference" />
+        <attr name="top_left_cornerRadius" format="dimension|reference" />
+        <attr name="top_right_cornerRadius" format="dimension|reference" />
+        <attr name="bottom_left_cornerRadius" format="dimension|reference" />
+        <attr name="bottom_right_cornerRadius" format="dimension|reference" />
+        <attr name="numberColor" format="color|reference" />
+        <attr name="numberMaskColor" format="color|reference" />
+        <attr name="numberSize" format="dimension|reference" />
+    </declare-styleable>
+
+    <declare-styleable name="LineLayout">
+        <!--两个View之间的间距 ：值越小就越近，越大就越远-->
+        <attr name="lineViewMarginRate" format="float" />
+        <!--View的层次关系，true:前面的在上，false:后面的在上-->
+        <attr name="lineIsReverse" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="GridLayout">
+        <attr name="column" format="integer" />
+        <attr name="horizontalSpace" format="dimension|reference" />
+        <attr name="verticalSpace" format="dimension|reference" />
+        <attr name="maxCount" format="integer" />
+        <attr name="ratio" />
+        <attr name="mode" format="flags">
+            <flag name="fill" value="0" />
+            <flag name="grid" value="1" />
+        </attr>
+        <attr name="singleWrap" format="boolean" />
+        <attr name="isEditable" format="boolean" />
+        <attr name="isDeletable" format="boolean" />
+        <attr name="deleteIcon" format="integer|reference" />
+    </declare-styleable>
+
+    <declare-styleable name="EditTextLayout">
+        <attr name="backgroundNormal" format="integer|reference" />
+        <attr name="backgroundError" format="integer|reference" />
+        <attr name="isEnabledEmptyVerity" format="boolean" />
+    </declare-styleable>
+
+    <!-- Color palette -->
+    <eat-comment />
+    <attr name="primaryTextColor" format="color" />
+    <attr name="secondaryTextColor" format="color" />
+    <attr name="hintTextColor" format="color" />
+    <attr name="divideColor" format="color" />
+    <attr name="activeColor" format="color" />
+    <attr name="inactiveColor" format="color" />
+
+    <attr name="dialogPrimaryColor" format="color" />
+    <attr name="dialogSecondaryColor" format="color" />
+    <attr name="dialogAccentColor" format="color" />
+    <attr name="dialogPrimaryTextColor" format="color" />
+    <attr name="dialogSecondaryColorText" format="color" />
+    <attr name="dialogHintTextColor" format="color" />
+    <attr name="dialogDivideColor" format="color" />
+    <attr name="dialogButtonTextColor" format="color" />
+    <attr name="dialogBackgroundColor" format="color" />
+    <attr name="dialogActiveColor" format="color" />
+    <attr name="dialogInactiveColor" format="color" />
+</resources>
